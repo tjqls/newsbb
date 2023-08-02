@@ -1,3 +1,14 @@
 .table>.info-section{
     background-color:rgb(36,106,186);
+    color:white;
+    border-radius:5px;
+}
+
+.create>.create-btn{
+    background-color:rgb(96,96,96);
+}
+
+.container{
+ background-image:url('https://blog.kakaocdn.net/dn/bMinbg/btrIOvRrjlw/KjUMKkhVdm54cE1LYZ6700/01-%EA%B0%88%EB%A7%A4%EA%B8%B0-C-Fly%20High-%ED%95%98%EB%8A%98%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4.png?attach=1&knm=img.png');
+ background-size:cover;
 }

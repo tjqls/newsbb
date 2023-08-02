@@ -1,4 +1,15 @@
-<html layout:decorate="~{layout}">
+<!doctype html>
+<html lang="ko" layout:decorate="~{layout}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" th:href="@{/question_detail_style.css}" type="text/css">
+</head>
+<body>
+
 <div layout:fragment="content" class="container my-3">
     <div class="my-3 border-bottom">
         <div>
@@ -26,4 +37,5 @@
         <button type="submit" class="btn btn-primary">회원가입</button>
     </form>
 </div>
+</body>
 </html>

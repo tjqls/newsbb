@@ -1,5 +1,17 @@
-<link rel="stylesheet" type="text/css" th:href="@{/question_style.css}">
-<html layout:decorate="~{layout}">
+<!doctype html>
+<html lang="ko" layout:decorate="~{layout}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" th:href="@{/question_style.css}" type="text/css">
+</head>
+<body>
+
+
+
 <div layout:fragment="content" class="container my-3">
 	<div class="row my-3">
         <div class="col-6">
@@ -77,4 +89,6 @@ btn_search.addEventListener('click', function() {
     document.getElementById('searchForm').submit();
 });
 </script>
+
+</body>
 </html>
